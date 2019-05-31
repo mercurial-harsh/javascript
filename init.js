@@ -18,6 +18,8 @@ function onClick() {
     var sum = addend1 + addend2;
     label.textContent = addend1 + ' + ' + addend2 + ' = ' + sum;
   }
+
+  //commit understanding
   function getNumber1() {
     return inputs[0].value;
   }
