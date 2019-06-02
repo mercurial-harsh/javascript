@@ -1,4 +1,4 @@
-function onClick() {
+ function onClick() {
     if (inputsAreEmpty()) {
       label.textContent = 'Error: one or both inputs are empty.';
       return;
